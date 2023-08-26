@@ -51,11 +51,10 @@ typedef struct bus_s
 extern bus_t bus;
 
 /**
-*struct instruction_s - a program of opcode and its function
-*@opcode: the opcode
-*@f: function to handle the opcode
-*Description: opcode and its function
-*for stack, queues, LIFO, FIFO Holberton project
+*struct instruction_s - program of opcode.
+*@opcode: opcode
+*@f: function to handle.
+*Description: opcode and its function.
 */
 typedef struct instruction_s
 {
