@@ -9,13 +9,11 @@
 #include <ctype.h>
 
 /**
-*struct stack_s - a program that doubly linked list
-*representation of a stack (or queue)
+*struct stack_s -  program that doubly
 *@n: integer
-*@prev: points to the previous element of the stack (or queue)
-*@next: points to the next element of the stack (or queue)
-*Description: doubly linked list node structure
-*for stack, queues, LIFO, FIFO Holberton project
+*@prev: points to the previous element.
+*@next: points to the next element.
+*Description: doubly linked list.
 */
 typedef struct stack_s
 {
